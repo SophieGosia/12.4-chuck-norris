@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway|Rye");
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  padding-top: 30px;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1200px;
+  h1 {
+    font-family: 'Rye', cursive;
+    color: rgb(230, 83, 15);
+  }
+  .get-joke {
+    width: 250px;
+    padding: 6px;
+    margin: 25px auto;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    background-color: rgb(230, 83, 15);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    &:hover {
+      background-color: rgb(255, 123, 0);
+    }
+    &:active {
+      background-color: rgb(255, 60, 0);
+      box-shadow: 0 3px rgb(49, 19, 5);
+      transform: translateY(4px);
+    }
+  }
+  .doggo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15vw;
+    border-radius: 50%;
+  }
+  .joke {
+    font-size: 20px;
+    color: rgb(49, 19, 5)
+  }
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-top: 20px;
+  padding: 10px 0;
+  text-align: center;
+  background-color: none;
+  color: rgb(128, 48, 11);
+}
