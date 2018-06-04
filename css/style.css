@@ -1,67 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway|Rye");
-body {
-  font-family: 'Raleway', sans-serif;
-}
+body { font-family: 'Raleway', sans-serif; }
 
-.container {
-  padding-top: 30px;
-  margin: 0 auto;
-  text-align: center;
-  max-width: 1200px;
-}
+.container { padding-top: 30px; margin: 0 auto; text-align: center; max-width: 1200px; }
 
-.container h1 {
-  font-family: 'Rye', cursive;
-  color: #e6530f;
-}
+.container h1 { font-family: 'Rye', cursive; color: #e6530f; }
 
-.container .get-joke {
-  width: 250px;
-  padding: 6px;
-  margin: 25px auto;
-  border-radius: 5px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  line-height: 40px;
-  background-color: #e6530f;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  text-align: center;
-}
+.container .btn { width: 250px; padding: 6px; margin: 25px auto; border-radius: 5px; font-family: 'Raleway', sans-serif; font-size: 20px; line-height: 40px; background-color: #e6530f; color: #fff; border: none; cursor: pointer; text-align: center; }
 
-.container .get-joke:hover {
-  background-color: #ff7b00;
-}
+.container .btn:hover { background-color: #ff7b00; }
 
-.container .get-joke:active {
-  background-color: #ff3c00;
-  box-shadow: 0 3px #311305;
-  transform: translateY(4px);
-}
+.container .btn:active { background-color: #ff3c00; box-shadow: 0 3px #311305; transform: translateY(4px); }
 
-.container .doggo-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 15vw;
-  border-radius: 50%;
-}
+.container .doggo-img { display: block; margin-left: auto; margin-right: auto; width: 15vw; border-radius: 50%; }
 
-.container .joke {
-  font-size: 20px;
-  color: #311305;
-}
+.container .joke { font-size: 20px; color: #311305; }
 
-footer {
-  width: 100%;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  margin-top: 20px;
-  padding: 10px 0;
-  text-align: center;
-  background-color: none;
-  color: #80300b;
-}
-/*# sourceMappingURL=style.css.map */
+footer { width: 100%; position: fixed; left: 0; bottom: 0; margin-top: 20px; padding: 10px 0; text-align: center; background-color: none; color: #80300b; }
